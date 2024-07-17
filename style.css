@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex; /* Ubah elemen menjadi container Flexbox */
+    flex-direction: row; /* Atur item flex ditata dalam baris */
+    justify-content: space-around; /* Atur item flex dengan jarak yang sama di antara mereka */
+    align-items: center; /* Atur item flex vertikal di tengah container */
+    width: 800px; /* Atur lebar container */
+    margin: 0 auto; /* Atur margin agar container berada di tengah */
+    padding: 20px; /* Atur padding di dalam container */
+    border: 1px solid #ff00c8; /* Atur border di sekitar container */
+    color: #ff1943;
+    
+}
+
+.flex-item {
+    flex: 1; /* Atur item flex untuk mengambil ruang yang tersedia */
+    text-align: center; /* Atur penjajaran teks di dalam item flex */
+    padding: 10px; /* Atur padding di dalam item flex */
+    border: 1px solid #ddd; /* Atur border di sekitar item flex */
+    margin: 10px; /* Atur margin di antara item flex */
+    color: rgb(0, 0, 0);
+    background-color: rgb(30, 255, 0);
+}
